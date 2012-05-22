@@ -1,0 +1,88 @@
+<html>
+    <head>
+        <title>吾輩は読書中である。明日の朝は早い。  @ayakix #24contest</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf8">
+        <!--FacebookOGPの設定-->
+        <meta property="og:title" content="吾輩は読書中である。明日の朝は早い。 @ayakix" />
+        <meta property="og:description" content="どこで読書をやめればよいか、とんと見当がつかぬ。"/>
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="http://ayakixyz.appspot.com/" />
+        <meta property="og:image" content="http://ayakixyz.appspot.com/img/book_love.jpg" />
+        <meta property="og:site_name" content="ayakixyz" />
+        <meta property="fb:app_id" content="113688148768303" />
+        <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+        <script type="text/javascript" src="./js/jquery.js"></script>
+        <style type="text/css">
+            body {
+                padding-top: 20px;
+                text-align: center;
+            }
+            input.urlinput {
+                width: 440px;
+                height: 2em;
+            }
+            .span6{
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="hero-unit">
+                <h2>吾輩は読書中である。明日の朝は早い。</h2>
+                <p>どこで読書をやめればよいか、とんと見当がつかぬ。</p>
+                <form method="get" action="/dl">
+                    <p>
+                        <input type="text" size="46" class="urlinput" name="url" value="http://www.aozora.gr.jp/cards/000148/files/789_ruby_5639.zip">
+                        <input type="submit">
+                    </p>
+                </form>
+            </div>
+
+            <div class="row">
+                <div class="span6">
+                    <h2>これって何？</h2>
+                    <p><a href="http://www.aozora.gr.jp/" target="_blank">青空文庫</a>形式のテキストの段落毎に読了時間を追記します</p>
+                    <img src="./img/intro.png">
+                </div>
+                <div class="span6">
+                    <h2>もっと詳しく！</h2>
+                    <p>動画で使い方をチェック</p>
+                    <object width="460" height="260"><param name="movie" value="http://www.youtube.com/v/zcwo1rFUWJk?version=3&amp;hl=ja_JP"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/zcwo1rFUWJk?version=3&amp;hl=ja_JP" type="application/x-shockwave-flash" width="460" height="260" allowscriptaccess="always" allowfullscreen="true"></embed></object>
+                </div>
+            </div>
+            <hr>
+<!--            <div style="margin-top:30px;"></div>-->
+            <div class="row">
+                <div class="span6">
+                    <h2>Android</h2>
+                    <p>Androidアプリから直接利用することができます</p>
+                    <p><small>※お好きな青空文庫ビューアを用いてファイルを開いて下さい</small></p>
+                    <a href="https://play.google.com/store/apps/details?id=com.ayakix.aozoradownloader&hl=ja" target="_blank"><img src="./img/android.png"></a>
+                </div>
+                <div class="span6">
+                    <h2>PDF</h2>
+                    <p><a href="http://a2k.aill.org/text.html" target="_blank">青空キンドル様</a>より、Kindle用PDFファイルに変換できます</p>
+                    <a href="http://a2k.aill.org/text.html" target="_blank"><img src="./img/pdf.png"></a>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="span6">
+                    <h2>API</h2>
+                    <p><small>http://ayakixyz.appspot.com/dl?</small></p>
+                    <p><small>&url=[url] 青空文庫上のzipファイルURL</small></p>
+                    <p><small>&type=[txt|zip] ダウンロードフォーマット</small></p>
+                    <p><small>&speed=[int] 1分間に読む文字数(default:500)</small></p>
+                    <p><small>&maxmin=[int] N分毎に段落後にメッセージをいれる</small></p>
+                </div>
+            </div>
+            <hr>
+            <footer>
+            <p>&copy; <a href="http://twitter.com/#!/ayakix" target="_blank">ayakix</a> 2012</p>
+            </footer>
+
+        </div> <!-- /container -->
+    </body>
+</html>
+
